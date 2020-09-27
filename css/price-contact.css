@@ -1,0 +1,74 @@
+
+/* 3.7- Prices Section */
+.price-content
+{
+    overflow: hidden;
+}
+.price-content-plan
+{
+    width: 32%;
+    border: 1px solid var(--whiteColor);
+    padding: 40px 50px;
+    text-align: center;
+    float: left;
+}
+.price-content-plan.mg
+{
+    margin: 0 2%;
+}
+.price-content-plan-title
+{
+    color: var(--bg-grayColor);
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.price-content-plan:hover .price-content-plan-title
+{
+    color:var(--mainColor);
+}
+.price-content-plan-permonth
+{
+    border: 2px solid var(--mainColor);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 27px 0px;
+    margin: 25px auto;
+    transition: color 0.3s;
+}
+.price-content-plan:hover .price-content-plan-permonth
+{
+    color: var(--whiteColor);
+}
+.price-content-plan-permonth .dollar
+{
+    font-size: 33px;
+}
+.price-content-plan-permonth .month
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.price-content-plan-list > li
+{
+    color: var(--bg-grayColor);
+    text-transform: capitalize;
+}
+.price-content-plan .btn-purchase
+{
+    width: 70%;
+    background: none;
+    border: 2px solid var(--mainColor);
+    border-radius: 3px;
+    color:var(--mainColor);
+    padding: 12px 27px;
+    font-size: 15px;
+    margin-top: 25px;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+.price-content-plan .btn-purchase:hover
+{
+    opacity: .8;
+}

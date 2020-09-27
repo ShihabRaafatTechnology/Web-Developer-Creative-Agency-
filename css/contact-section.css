@@ -1,0 +1,84 @@
+
+/* 3.11- Contact Section */
+.contact-option
+{
+    overflow: hidden;
+}
+.contact-option-way
+{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.contact-option-way .icon
+{
+    color:var(--mainColor);
+    font-size: 35px;
+}
+.contact-option-way-title
+{
+    text-transform: capitalize;
+}
+.contact-option-way-desc
+{
+    color: var(--bg-grayColor);
+    text-transform: capitalize;
+}
+.contact-content-info
+{
+    overflow: hidden;
+    width: 65%;
+    margin: 50px auto 0 auto;
+}
+.contact-content-info .input,
+.contact-content-info #msg
+{
+    display: block;
+    background-color: var(--bg-whiteColor2);
+    padding: 15px;
+    border: 0;
+    outline: 0;
+}
+.contact-content-info .input::placeholder,
+.contact-content-info #msg::placeholder
+{
+    color: var(--bg-grayColor2);
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    font-size: 15px;
+}
+.contact-content-info .input-name,
+.contact-content-info .input-email
+{
+    float: left;
+    width: 49%;
+}
+.contact-content-info .input-name
+{
+    margin-right: 2%;
+}
+.contact-content-info .input-subject,
+.contact-content-info #msg
+{
+    width: 100%;
+}
+.contact-content-info .input-submit
+{
+    display: block;
+    width: 184px;
+    padding: 17px 35px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    margin: 32px auto 0 auto;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    transition: opacity 0.3s;
+    color: var(--whiteColor);
+    background-color:var(--mainColor);
+    cursor: pointer;
+}
+.contact-content-info .input-submit:hover
+{
+    opacity: .8;
+}

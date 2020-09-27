@@ -1,0 +1,50 @@
+
+/* 3.12- Footer Section */
+.footer
+{
+    background-color: var(--bg-blackColor);
+    text-align: center;
+    height: 55vh;
+}
+.footer img
+{
+    margin: 60px 0 45px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.footer img:hover
+{
+    opacity: .8;
+}
+.footer-list
+{
+    margin-bottom: 50px;
+}
+.footer-list li
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer-list li a
+{
+    color: var(--whiteColor);
+    background-color:var(--mainColor);
+    padding: 15px;
+    border-radius: 2px;
+    transition: opacity 0.3s;
+}
+.footer-copyright
+{
+    text-transform: uppercase;
+    color: var(--bg-grayColor);
+}
+.footer-copyright-name
+{
+    color:var(--mainColor);
+    transition: opacity 0.3s;
+}
+.footer-copyright-name:hover,
+.footer-list li a:hover
+{
+    opacity: .8;
+}

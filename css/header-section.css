@@ -1,0 +1,82 @@
+/* 3.0- Header Section */
+.header
+{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.header.color-nav
+{
+    background-color: var(--whiteColor);
+    transition: all 0.3s;
+}
+.header-content .logo
+{
+    width: 30%;
+    float: left;
+}
+.header-content .logo img
+{
+    width: 30%;
+    margin-top: 5px;
+}
+.header-content .nav
+{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.header-content .nav > li
+{
+    display: inline-block;
+    margin: 19px 15px 0;
+}
+.header-content .nav > li > a
+{
+    color: var(--whiteColor);
+    display: block;
+    text-transform: capitalize;
+}
+.header-content .nav > li > a > i
+{
+    margin-left: 5px;
+}
+.header-content .nav > li > a.active:after,
+.header-content .nav > li > a:after
+{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: var(--mainColor);
+}
+.header-content .nav > li > a.active:after,
+.header-content .nav > li > a:hover:after{width: 100%}
+.header-content .nav > li > a:after
+{
+    width: 0;
+    transition: width 0.3s
+}
+.header-content .nav .dropdown{position: relative}
+.header-content .nav .dropdown .dropdown-menu
+{
+    position: absolute;
+    width: 150px;
+    background-color:var(--mainColor);
+    text-align: center;
+    left: -120%;
+    top: 140%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.header-content .nav .dropdown:hover .dropdown-menu
+{
+    opacity: 1;
+    visibility: visible;
+}
+.header-content .nav .dropdown .dropdown-menu li a
+{
+    color: var(--whiteColor);
+    display: block;
+    padding: 10px 0;
+}

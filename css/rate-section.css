@@ -1,0 +1,38 @@
+
+/* 3.6- Rate Section */
+.rate
+{
+    background-image: linear-gradient(rgba(35, 36, 40, .8),rgba(35, 36, 40, .8)),url("../img/background/background1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 55px 0;
+}
+.rate-content
+{
+    overflow: hidden;
+}
+.rate-content-item
+{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.rate-content-item .icon
+{
+    color:var(--mainColor);
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+.rate-content-item-title
+{
+    color: var(--whiteColor);
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+.rate-content-item-desc
+{
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}

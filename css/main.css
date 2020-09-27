@@ -1,0 +1,65 @@
+/*
+Theme Name: Agency
+Theme URI: None
+Author:
+    - Shihab Raafat ( Front-End Developer )
+Author URI:
+    - none
+Description:
+Version: 1.0
+Text Domain: https://agency.netlify.com
+Tags:
+    1- Common Styles
+    2- Rulez ( Reset )
+    3- Sections
+        3.0- Header Section
+        3.1- Home Section
+        3.2- About Section
+        3.3- Portfolio Section
+        3.4- Offer Section
+        3.5- Prices Section
+        3.6- Rate Section
+        3.7- Price Contact
+        3.8- Testimonial Section
+        3.9- Team Section
+        3.10- Blog Page
+        3.11- Contact Section
+        3.12- Footer Section
+    End - Framework
+ */
+
+/*************************************************** Let's Start ******************************************************/
+
+/* 1- Common Styles */
+    /*
+        1.0- Container
+        1.1- Opacity Hover
+        1.2- Section Header
+        1.3- Section Padding
+        1.4- Hover Effect 1 ( Left To Right )
+        1.5- Hover Effect 2 ( Top To Bottom )
+     */
+
+/* 2- Rulez ( Reset ) */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Varela Round', sans-serif;
+}
+:root
+{
+    --mainColor:  #6195FF;
+    --whiteColor: #eee;
+    --bg-whiteColor2: #FAFAFA;
+    --bg-whiteColor3: #F4F4F4;
+    --blackColor: #10161A;
+    --bg-blackColor: #1C1D21;
+    --grayColor: #868F9B;
+    --bg-grayColor: #999;
+    --bg-grayColor2: #BABABA;
+}

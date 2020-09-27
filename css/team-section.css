@@ -1,0 +1,91 @@
+/* 3.9- Team Section */
+.team-content
+{
+    overflow: hidden;
+}
+.team-content-item
+{
+    float: left;
+    width: 32%;
+    background-color: var(--bg-whiteColor3);
+}
+.team-content-item.ttb-effect
+{
+    z-index: 0;
+}
+.team-content-item.mg
+{
+    margin: 0 2%;
+}
+.team-content-item:hover .team-content-item-profile-img-social
+{
+    opacity: 1;
+    visibility: visible;
+}
+.team-content-item:hover .team-content-item-profile-img img
+{
+    opacity: 0.2;
+}
+.team-content-item:hover .team-content-item-profile-info-title
+{
+    color: var(--whiteColor);
+}
+.team-content-item:hover .team-content-item-profile-info-desc
+{
+    color:var(--mainColor);
+}
+.team-content-item-profile
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.team-content-item-profile-img
+{
+    position: relative;
+    width: 100%;
+}
+.team-content-item-profile-img img
+{
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.team-content-item-profile-img-social
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.team-content-item-profile-img-social .icon
+{
+    background-color:var(--mainColor);
+    padding: 15px 0;
+    display: block;
+    color: var(--whiteColor);
+    width: 50px;
+    cursor: pointer;
+}
+.team-content-item-profile-img-social .icon:hover
+{
+    opacity: 0.7;
+}
+.team-content-item-profile-info
+{
+    text-align: center;
+}
+.team-content-item-profile-info-title
+{
+    text-transform: capitalize;
+    margin: 15px 0 12px;
+    transition: color 0.3s;
+}
+.team-content-item-profile-info-desc
+{
+    text-transform: uppercase;
+    color: var(--grayColor);
+    transition: color 0.3s;
+}

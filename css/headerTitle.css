@@ -1,0 +1,15 @@
+/* Section Header */
+.section-header {text-align: center}
+.section-header .section-title
+{
+    font-size: 36px;
+    text-transform: capitalize
+}
+.section-header .line
+{
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: var(--mainColor);
+    margin: 0px auto 76px auto
+}
